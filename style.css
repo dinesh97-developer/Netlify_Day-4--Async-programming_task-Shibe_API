@@ -1,0 +1,51 @@
+body{
+    background-image: url(Image.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+input{
+    width: 20%;
+}
+.main {
+    margin: 20px;
+    text-align: center;
+    padding: 50px; 
+}
+
+.btn {
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.container {
+    /* margin-top: 20px; */
+    margin: 10px 88px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+h1{
+    
+    text-align: center;
+    color: rgb(4, 26, 219);
+    font-weight: bold;
+    font-family: 'Times New Roman';
+    font-size: 75px;
+    text-shadow: 2px 2px rgb(4, 226, 255);
+    
+}
+
+label{
+    margin-right: 10px;
+    font-style: italic; 
+    font-weight: bold;
+}
+.rounded{
+    filter: drop-shadow(0 0 0.85rem rgba(42, 44, 33, 0.568));
+    height: 300px;
+    width: 306px;
+    border-radius: 25% 10%;
+}
